@@ -122,6 +122,8 @@
 	}
 
 	if(InputList[["Model"]][["overwriteTD"]]){
+        # TODO: don't rebuild entire file, only append new catalogs (without rebuilt ones)? But what, if 
+        #       several processes try to append to one file?
 		rebuildCatListFile(C.Path,SncRun[(rebuild),Cat.Name])
 	}
 	SncRun[,rebuild:=NULL]
