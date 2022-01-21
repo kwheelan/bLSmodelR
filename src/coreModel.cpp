@@ -5,7 +5,7 @@ using namespace Rcpp;
 // [[Rcpp::export]]
 
 // KW: Adding this line b/c it was breaking
-const double PI = 3.1415926
+const double PI = 3.1415926;
 
 Rcpp::List csFs(std::vector<double> uIn, std::vector<double> vIn, std::vector<double> wIn, const double& ZIn, const double& ustarIn, const double& LinvIn, const double& ZoIn, const double& bwIn, const double& sUustarIn, const double& sVustarIn, const double& kvIn, const double& C0In, const double& alphaIn, const double& MaxFetchIn)
 	{
