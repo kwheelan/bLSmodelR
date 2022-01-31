@@ -158,8 +158,9 @@ runbLS <- function(ModelInput,Cat.Path=NULL,TDonly=NULL,ncores=NULL,writeCsv=FAL
 	if(!ModelInput[["Model"]][["TDonly"]]){
 		
 		# Calling function to generate ouput
-		# Printing "SncRun" argument
+		# KW: Printing "SncRun" argument
 		print(paste0("SncRun: ", Intervals))
+		print("sent off")
 		
 		Out <- .calcOutput(Intervals,ModelInput,Cat.Path)
 		Intervals <- attr(Out,"CalcSteps")
