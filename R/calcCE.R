@@ -10,10 +10,7 @@
 		     "/n Srcs: ",
 		     Srcs,
 		     "/n C.Path: ",
-		     C.Path)
-	      
-	# KW: added
-	library(data.table)
+		     C.Path))
 
 
 	# SubRun <- SncRun[ilist,]
