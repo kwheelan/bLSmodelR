@@ -4,7 +4,7 @@
 	# KW: Call to calculate ratio is here. 
 	# Printing all the arguments passed to the calculation
 	print(paste0("About to calulate ratios. /n Arguments: /n Subrun: ",
-		     Subrun,
+		     SubRun,
 		     "/n InputList: ",
 		     InputList,
 		     "/n Srcs: ",
