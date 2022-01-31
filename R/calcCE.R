@@ -11,6 +11,9 @@
 		     Srcs,
 		     "/n C.Path: ",
 		     C.Path)
+	      
+	# KW: added
+	library(data.table)
 
 
 	# SubRun <- SncRun[ilist,]
